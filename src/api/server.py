@@ -16,6 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from src.dispatch.matcher import VolunteerMatcher
+from src.dispatch.skill_tagger import tag_skills
 from src.dispatch.models import (
     AvailabilityStatus,
     DispatchMatch,
@@ -284,5 +285,30 @@ def coalition_broadcast(body: BroadcastRequest) -> dict:
                 "top_match_score": c.top_match_score,
             }
             for c in broadcast_response.org_coverage
+        ],
+    }
+
+
+# ---------------------------------------------------------------------------
+# Skill tagging endpoint
+# ---------------------------------------------------------------------------
+
+class TagSkillsRequest(BaseModel):
+    description: str
+    min_score: float = Field(default=0.04, ge=0.0, le=1.0)
+
+
+@app.post("/dispatch/tag-skills")
+def tag_task_skills(body: TagSkillsRequest) -> dict:
+    """Suggest SkillArea values for a free-text task description.
+
+    All computation is local — no external API calls, no data leaves the
+    server. Safe for use with sensitive campaign or investigation planning.
+    """
+    ranked = tag_skills(body.description, min_score=body.min_score)
+    return {
+        "suggested_skills": [
+            {"skill": area.value, "score": round(score, 4)}
+            for area, score in ranked
         ],
     }
