@@ -8,10 +8,11 @@ Endpoints follow the seven-concern baseline:
 """
 from __future__ import annotations
 
+import os
 import uuid
 from typing import Any
 
-from fastapi import FastAPI, HTTPException, status
+from fastapi import Depends, FastAPI, Header, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
@@ -28,6 +29,26 @@ from src.dispatch.models import (
 from src.coalition.broadcast import CoalitionBroadcaster, OrgVolunteerPool
 from src.engagement.tracker import at_risk_volunteers, engagement_status, log_activity
 from src.phone_banking.outcome_logger import CallOutcome, create_record, summarise_outcomes
+
+# ---------------------------------------------------------------------------
+# Auth
+# ---------------------------------------------------------------------------
+
+_VOLUNTEER_API_KEYS = set(
+    k for k in os.environ.get("VOLUNTEER_API_KEYS", "").split(",") if k
+)
+
+
+def require_auth(authorization: str = Header(None)) -> None:
+    """Verify bearer token when VOLUNTEER_API_KEYS is configured.
+
+    When the env var is unset (empty), auth is open — intentional for local
+    development. Fails closed only when keys are explicitly configured.
+    """
+    token = (authorization or "").removeprefix("Bearer ").strip()
+    if _VOLUNTEER_API_KEYS and (not token or token not in _VOLUNTEER_API_KEYS):
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
 
 app = FastAPI(
     title="Open Paws Volunteer",
@@ -98,7 +119,7 @@ class BroadcastRequest(BaseModel):
 # ---------------------------------------------------------------------------
 
 @app.post("/volunteers", status_code=status.HTTP_201_CREATED)
-def create_volunteer(body: VolunteerCreateRequest) -> dict:
+def create_volunteer(body: VolunteerCreateRequest, _: None = Depends(require_auth)) -> dict:
     """Register a volunteer. Returns a pseudonymous volunteer_id."""
     volunteer_id = f"vol_{uuid.uuid4().hex[:12]}"
     volunteer = Volunteer(
@@ -113,7 +134,7 @@ def create_volunteer(body: VolunteerCreateRequest) -> dict:
 
 
 @app.get("/volunteers/available")
-def list_available_volunteers() -> list[dict]:
+def list_available_volunteers(_: None = Depends(require_auth)) -> list[dict]:
     """Return all volunteers who are currently AVAILABLE."""
     available = [
         v for v in _volunteers.values()
@@ -136,7 +157,7 @@ def list_available_volunteers() -> list[dict]:
 # ---------------------------------------------------------------------------
 
 @app.post("/dispatch/request", status_code=status.HTTP_201_CREATED)
-def create_dispatch_request(body: DispatchRequestCreate) -> dict:
+def create_dispatch_request(body: DispatchRequestCreate, _: None = Depends(require_auth)) -> dict:
     """Create a dispatch request and auto-match available volunteers."""
     request_id = f"req_{uuid.uuid4().hex[:12]}"
     request = DispatchRequest(
@@ -170,7 +191,7 @@ def create_dispatch_request(body: DispatchRequestCreate) -> dict:
 
 
 @app.post("/dispatch/{request_id}/accept")
-def accept_dispatch(request_id: str, volunteer_id: str) -> dict:
+def accept_dispatch(request_id: str, volunteer_id: str, _: None = Depends(require_auth)) -> dict:
     """Record a volunteer accepting a dispatch request."""
     if request_id not in _dispatch_requests:
         raise HTTPException(status_code=404, detail="Dispatch request not found")
@@ -189,7 +210,7 @@ def accept_dispatch(request_id: str, volunteer_id: str) -> dict:
 # ---------------------------------------------------------------------------
 
 @app.post("/calls/log", status_code=status.HTTP_201_CREATED)
-def log_call(body: CallLogRequest) -> dict:
+def log_call(body: CallLogRequest, _: None = Depends(require_auth)) -> dict:
     """Log a call outcome. Only the outcome category is stored — never content."""
     record_id = f"call_{uuid.uuid4().hex[:12]}"
     record = create_record(
@@ -217,7 +238,7 @@ def log_call(body: CallLogRequest) -> dict:
 
 
 @app.get("/calls/summary/{campaign_id}")
-def call_summary(campaign_id: str) -> dict:
+def call_summary(campaign_id: str, _: None = Depends(require_auth)) -> dict:
     """Return outcome summary for a campaign."""
     campaign_records = [r for r in _call_records if r.campaign_id == campaign_id]
     return summarise_outcomes(campaign_records)
@@ -228,7 +249,7 @@ def call_summary(campaign_id: str) -> dict:
 # ---------------------------------------------------------------------------
 
 @app.get("/engagement/at-risk")
-def get_at_risk_volunteers() -> list[dict]:
+def get_at_risk_volunteers(_: None = Depends(require_auth)) -> list[dict]:
     """Return volunteers who need reactivation outreach."""
     volunteers = list(_volunteers.values())
     at_risk = at_risk_volunteers(volunteers)
@@ -248,7 +269,7 @@ def get_at_risk_volunteers() -> list[dict]:
 # ---------------------------------------------------------------------------
 
 @app.post("/broadcast", status_code=status.HTTP_201_CREATED)
-def coalition_broadcast(body: BroadcastRequest) -> dict:
+def coalition_broadcast(body: BroadcastRequest, _: None = Depends(require_auth)) -> dict:
     """Broadcast a dispatch request to all specified coalition orgs.
 
     Returns per-org match counts only. Individual volunteer data never crosses
