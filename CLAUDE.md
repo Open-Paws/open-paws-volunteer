@@ -70,3 +70,31 @@ python -m pytest tests/
 - Add proximity matching when volunteers share location (haversine is implemented in dispatch/router.py)
 - Replace in-memory stores in api/server.py with sqlite-utils persistence
 - SMS/WhatsApp notification for dispatch alerts (cc-connect patterns)
+
+## Every Session
+
+Read the strategy repo for current priorities before acting:
+
+```bash
+gh api repos/Open-Paws/open-paws-strategy/contents/priorities.md --jq '.content' | base64 -d
+gh api repos/Open-Paws/open-paws-strategy/contents/closed-decisions.md --jq '.content' | base64 -d
+```
+
+## Quality Gates
+
+Run before every PR:
+
+```bash
+pip install "git+https://github.com/Open-Paws/desloppify.git#egg=desloppify[full]"
+desloppify scan --path .
+desloppify next
+```
+
+Minimum passing score: ≥85
+
+Speciesist language scan:
+```bash
+semgrep --config semgrep-no-animal-violence.yaml .
+```
+
+All PRs must pass CI before merge.
