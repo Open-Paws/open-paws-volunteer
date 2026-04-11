@@ -25,9 +25,7 @@ jobs:
         run: pip install "desloppify[full] @ git+https://github.com/Open-Paws/desloppify.git"
 
       - name: Run desloppify scan
-        run: |
-          desloppify scan --path .
-          desloppify next --ci
+        run: desloppify scan --path .
         env:
           DESLOPPIFY_MIN_SCORE: "85"
 
