@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from typing import Optional
 
 from src.dispatch.matcher import VolunteerMatcher
-from src.dispatch.models import DispatchMatch, DispatchRequest, Volunteer
+from src.dispatch.models import DispatchRequest, Volunteer
 
 
 @dataclass(frozen=True)

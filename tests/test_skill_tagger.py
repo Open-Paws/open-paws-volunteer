@@ -3,7 +3,6 @@ Tests for skill_tagger.
 
 Each assertion encodes a domain rule: if the behavior breaks, the test must fail.
 """
-import pytest
 
 from src.dispatch.models import SkillArea
 from src.dispatch.skill_tagger import tag_skills

@@ -1,19 +1,19 @@
 {
   "version": 3,
   "created": "2026-04-12T08:31:38+00:00",
-  "last_scan": "2026-04-12T08:57:41+00:00",
-  "scan_count": 13,
-  "overall_score": 86.0,
-  "objective_score": 75.0,
-  "strict_score": 86.0,
-  "verified_strict_score": 75.0,
+  "last_scan": "2026-04-12T09:08:32+00:00",
+  "scan_count": 19,
+  "overall_score": 86.5,
+  "objective_score": 76.8,
+  "strict_score": 86.5,
+  "verified_strict_score": 76.8,
   "stats": {
-    "total": 37,
+    "total": 39,
     "auto_resolved": 0,
     "deferred": 0,
     "false_positive": 0,
     "fixed": 0,
-    "open": 37,
+    "open": 39,
     "triaged_out": 0,
     "wontfix": 0,
     "by_tier": {
@@ -31,7 +31,7 @@
         "deferred": 0,
         "false_positive": 0,
         "fixed": 0,
-        "open": 2,
+        "open": 4,
         "triaged_out": 0,
         "wontfix": 0
       },
@@ -355,7 +355,7 @@
         "passthrough": 5,
         "direct": 0,
         "ratio": 1.0,
-        "line": 18,
+        "line": 16,
         "tier": 4,
         "confidence": "high",
         "passthrough_params": [
@@ -371,7 +371,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -422,7 +422,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -447,7 +447,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -472,7 +472,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -490,14 +490,14 @@
       "file": "src/phone_banking/campaign_runner.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Orphaned file (170 LOC): zero importers, not an entry point",
+      "summary": "Orphaned file (169 LOC): zero importers, not an entry point",
       "detail": {
-        "loc": 170
+        "loc": 169
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -522,7 +522,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -540,14 +540,14 @@
       "file": "src/dispatch/router.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Orphaned file (63 LOC): zero importers, not an entry point",
+      "summary": "Orphaned file (62 LOC): zero importers, not an entry point",
       "detail": {
-        "loc": 63
+        "loc": 62
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -575,7 +575,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -603,7 +603,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -631,7 +631,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -649,17 +649,17 @@
       "file": "src/phone_banking/campaign_runner.py",
       "tier": 3,
       "confidence": "high",
-      "summary": "Untested module (170 LOC, 0 importers)",
+      "summary": "Untested module (169 LOC, 0 importers)",
       "detail": {
         "kind": "untested_module",
-        "loc": 170,
+        "loc": 169,
         "importer_count": 0,
-        "loc_weight": 13.038404810405298
+        "loc_weight": 13.0
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -687,7 +687,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -715,7 +715,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -733,17 +733,17 @@
       "file": "src/dispatch/router.py",
       "tier": 3,
       "confidence": "high",
-      "summary": "Untested module (63 LOC, 0 importers)",
+      "summary": "Untested module (62 LOC, 0 importers)",
       "detail": {
         "kind": "untested_module",
-        "loc": 63,
+        "loc": 62,
         "importer_count": 0,
-        "loc_weight": 7.937253933193772
+        "loc_weight": 7.874007874011811
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:38+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -779,7 +779,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -803,13 +803,13 @@
         "severity": "medium",
         "count": 1,
         "lines": [
-          55
+          54
         ]
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -839,7 +839,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -863,13 +863,13 @@
         "severity": "low",
         "count": 1,
         "lines": [
-          47
+          46
         ]
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -899,7 +899,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -929,7 +929,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -960,7 +960,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -990,7 +990,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -1018,7 +1018,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -1046,7 +1046,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -1074,7 +1074,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -1105,7 +1105,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-04-12T08:31:39+00:00",
-      "last_seen": "2026-04-12T08:57:41+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "work_item_kind": "mechanical_defect",
@@ -1113,6 +1113,58 @@
       "origin": "scan",
       "zone": "production",
       "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null
+    },
+    "unused::src/phone_banking/campaign_runner.py::target_type:85": {
+      "id": "unused::src/phone_banking/campaign_runner.py::target_type:85",
+      "detector": "unused",
+      "file": "src/phone_banking/campaign_runner.py",
+      "tier": 2,
+      "confidence": "high",
+      "summary": "Unused vars: target_type",
+      "detail": {
+        "line": 85,
+        "category": "vars"
+      },
+      "status": "open",
+      "note": null,
+      "first_seen": "2026-04-12T09:02:53+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
+      "resolved_at": null,
+      "reopen_count": 0,
+      "work_item_kind": "mechanical_defect",
+      "issue_kind": "mechanical_defect",
+      "origin": "scan",
+      "lang": "python",
+      "zone": "production",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null
+    },
+    "unused::src/phone_banking/campaign_runner.py::tone:86": {
+      "id": "unused::src/phone_banking/campaign_runner.py::tone:86",
+      "detector": "unused",
+      "file": "src/phone_banking/campaign_runner.py",
+      "tier": 2,
+      "confidence": "high",
+      "summary": "Unused vars: tone",
+      "detail": {
+        "line": 86,
+        "category": "vars"
+      },
+      "status": "open",
+      "note": null,
+      "first_seen": "2026-04-12T09:02:53+00:00",
+      "last_seen": "2026-04-12T09:08:32+00:00",
+      "resolved_at": null,
+      "reopen_count": 0,
+      "work_item_kind": "mechanical_defect",
+      "issue_kind": "mechanical_defect",
+      "origin": "scan",
+      "lang": "python",
+      "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
       "suppression_pattern": null
@@ -1135,7 +1187,7 @@
         }
       },
       "warnings": [],
-      "updated_at": "2026-04-12T08:57:41+00:00"
+      "updated_at": "2026-04-12T09:08:32+00:00"
     }
   },
   "score_confidence": {
@@ -3347,13 +3399,975 @@
           "strict": 88.0
         }
       }
+    },
+    {
+      "timestamp": "2026-04-12T09:01:26+00:00",
+      "lang": "python",
+      "strict_score": 86.0,
+      "verified_strict_score": 75.0,
+      "objective_score": 75.0,
+      "overall_score": 86.0,
+      "open": 37,
+      "diff_new": 0,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_issues": 0,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "disabled",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": null
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "Code quality": {
+          "score": 87.7,
+          "strict": 87.7
+        },
+        "Security": {
+          "score": 97.6,
+          "strict": 97.6
+        },
+        "File health": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 34.8,
+          "strict": 34.8
+        },
+        "Advocacy language": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Advocacy security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Abstraction fit": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Data sovereignty": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy language (subjective)": {
+          "score": 95.0,
+          "strict": 95.0
+        },
+        "Advocacy security (subjective)": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Advocacy terminology": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy tools": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Advocacy UX": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "AI generated debt": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "API coherence": {
+          "score": 90.0,
+          "strict": 90.0
+        },
+        "Auth consistency": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "Contracts": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Convention drift": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Cross-module arch": {
+          "score": 87.0,
+          "strict": 87.0
+        },
+        "Dep health": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Design coherence": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Error consistency": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "High elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Stale migration": {
+          "score": 72.0,
+          "strict": 72.0
+        },
+        "Init coupling": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "Logic clarity": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Low elegance": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Mid elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Naming quality": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Structure nav": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Test strategy": {
+          "score": 46.0,
+          "strict": 46.0
+        },
+        "Type safety": {
+          "score": 88.0,
+          "strict": 88.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T09:03:00+00:00",
+      "lang": "python",
+      "strict_score": 86.5,
+      "verified_strict_score": 76.8,
+      "objective_score": 76.8,
+      "overall_score": 86.5,
+      "open": 39,
+      "diff_new": 2,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_issues": 28,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "disabled",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 85.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "Code quality": {
+          "score": 86.2,
+          "strict": 86.2
+        },
+        "Security": {
+          "score": 97.6,
+          "strict": 97.6
+        },
+        "File health": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 34.9,
+          "strict": 34.9
+        },
+        "Advocacy language": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Advocacy security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Abstraction fit": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Data sovereignty": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy language (subjective)": {
+          "score": 95.0,
+          "strict": 95.0
+        },
+        "Advocacy security (subjective)": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Advocacy terminology": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy tools": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Advocacy UX": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "AI generated debt": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "API coherence": {
+          "score": 90.0,
+          "strict": 90.0
+        },
+        "Auth consistency": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "Contracts": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Convention drift": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Cross-module arch": {
+          "score": 87.0,
+          "strict": 87.0
+        },
+        "Dep health": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Design coherence": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Error consistency": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "High elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Stale migration": {
+          "score": 72.0,
+          "strict": 72.0
+        },
+        "Init coupling": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "Logic clarity": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Low elegance": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Mid elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Naming quality": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Structure nav": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Test strategy": {
+          "score": 46.0,
+          "strict": 46.0
+        },
+        "Type safety": {
+          "score": 88.0,
+          "strict": 88.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T09:03:19+00:00",
+      "lang": "python",
+      "strict_score": 86.5,
+      "verified_strict_score": 76.8,
+      "objective_score": 76.8,
+      "overall_score": 86.5,
+      "open": 39,
+      "diff_new": 0,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_issues": 0,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "disabled",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": null
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "Code quality": {
+          "score": 86.2,
+          "strict": 86.2
+        },
+        "Security": {
+          "score": 97.6,
+          "strict": 97.6
+        },
+        "File health": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 34.9,
+          "strict": 34.9
+        },
+        "Advocacy language": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Advocacy security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Abstraction fit": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Data sovereignty": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy language (subjective)": {
+          "score": 95.0,
+          "strict": 95.0
+        },
+        "Advocacy security (subjective)": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Advocacy terminology": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy tools": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Advocacy UX": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "AI generated debt": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "API coherence": {
+          "score": 90.0,
+          "strict": 90.0
+        },
+        "Auth consistency": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "Contracts": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Convention drift": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Cross-module arch": {
+          "score": 87.0,
+          "strict": 87.0
+        },
+        "Dep health": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Design coherence": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Error consistency": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "High elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Stale migration": {
+          "score": 72.0,
+          "strict": 72.0
+        },
+        "Init coupling": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "Logic clarity": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Low elegance": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Mid elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Naming quality": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Structure nav": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Test strategy": {
+          "score": 46.0,
+          "strict": 46.0
+        },
+        "Type safety": {
+          "score": 88.0,
+          "strict": 88.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T09:03:40+00:00",
+      "lang": "python",
+      "strict_score": 86.5,
+      "verified_strict_score": 76.8,
+      "objective_score": 76.8,
+      "overall_score": 86.5,
+      "open": 39,
+      "diff_new": 0,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_issues": 28,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "disabled",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 85.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "Code quality": {
+          "score": 86.2,
+          "strict": 86.2
+        },
+        "Security": {
+          "score": 97.6,
+          "strict": 97.6
+        },
+        "File health": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 34.9,
+          "strict": 34.9
+        },
+        "Advocacy language": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Advocacy security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Abstraction fit": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Data sovereignty": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy language (subjective)": {
+          "score": 95.0,
+          "strict": 95.0
+        },
+        "Advocacy security (subjective)": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Advocacy terminology": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy tools": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Advocacy UX": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "AI generated debt": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "API coherence": {
+          "score": 90.0,
+          "strict": 90.0
+        },
+        "Auth consistency": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "Contracts": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Convention drift": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Cross-module arch": {
+          "score": 87.0,
+          "strict": 87.0
+        },
+        "Dep health": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Design coherence": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Error consistency": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "High elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Stale migration": {
+          "score": 72.0,
+          "strict": 72.0
+        },
+        "Init coupling": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "Logic clarity": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Low elegance": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Mid elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Naming quality": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Structure nav": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Test strategy": {
+          "score": 46.0,
+          "strict": 46.0
+        },
+        "Type safety": {
+          "score": 88.0,
+          "strict": 88.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T09:04:08+00:00",
+      "lang": "python",
+      "strict_score": 86.5,
+      "verified_strict_score": 76.8,
+      "objective_score": 76.8,
+      "overall_score": 86.5,
+      "open": 39,
+      "diff_new": 0,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_issues": 0,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "disabled",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": null
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "Code quality": {
+          "score": 86.2,
+          "strict": 86.2
+        },
+        "Security": {
+          "score": 97.6,
+          "strict": 97.6
+        },
+        "File health": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 34.9,
+          "strict": 34.9
+        },
+        "Advocacy language": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Advocacy security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Abstraction fit": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Data sovereignty": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy language (subjective)": {
+          "score": 95.0,
+          "strict": 95.0
+        },
+        "Advocacy security (subjective)": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Advocacy terminology": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy tools": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Advocacy UX": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "AI generated debt": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "API coherence": {
+          "score": 90.0,
+          "strict": 90.0
+        },
+        "Auth consistency": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "Contracts": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Convention drift": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Cross-module arch": {
+          "score": 87.0,
+          "strict": 87.0
+        },
+        "Dep health": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Design coherence": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Error consistency": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "High elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Stale migration": {
+          "score": 72.0,
+          "strict": 72.0
+        },
+        "Init coupling": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "Logic clarity": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Low elegance": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Mid elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Naming quality": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Structure nav": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Test strategy": {
+          "score": 46.0,
+          "strict": 46.0
+        },
+        "Type safety": {
+          "score": 88.0,
+          "strict": 88.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-12T09:08:32+00:00",
+      "lang": "python",
+      "strict_score": 86.5,
+      "verified_strict_score": 76.8,
+      "objective_score": 76.8,
+      "overall_score": 86.5,
+      "open": 39,
+      "diff_new": 0,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_issues": 28,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "disabled",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 85.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "Code quality": {
+          "score": 86.2,
+          "strict": 86.2
+        },
+        "Security": {
+          "score": 97.6,
+          "strict": 97.6
+        },
+        "File health": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 34.9,
+          "strict": 34.9
+        },
+        "Advocacy language": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Advocacy security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Abstraction fit": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Data sovereignty": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy language (subjective)": {
+          "score": 95.0,
+          "strict": 95.0
+        },
+        "Advocacy security (subjective)": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Advocacy terminology": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Advocacy tools": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Advocacy UX": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "AI generated debt": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "API coherence": {
+          "score": 90.0,
+          "strict": 90.0
+        },
+        "Auth consistency": {
+          "score": 83.0,
+          "strict": 83.0
+        },
+        "Contracts": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Convention drift": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Cross-module arch": {
+          "score": 87.0,
+          "strict": 87.0
+        },
+        "Dep health": {
+          "score": 88.0,
+          "strict": 88.0
+        },
+        "Design coherence": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Error consistency": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "High elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Stale migration": {
+          "score": 72.0,
+          "strict": 72.0
+        },
+        "Init coupling": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "Logic clarity": {
+          "score": 92.0,
+          "strict": 92.0
+        },
+        "Low elegance": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Mid elegance": {
+          "score": 91.0,
+          "strict": 91.0
+        },
+        "Naming quality": {
+          "score": 93.0,
+          "strict": 93.0
+        },
+        "Structure nav": {
+          "score": 89.0,
+          "strict": 89.0
+        },
+        "Test strategy": {
+          "score": 46.0,
+          "strict": 46.0
+        },
+        "Type safety": {
+          "score": 88.0,
+          "strict": 88.0
+        }
+      }
     }
   ],
   "review_cache": {
     "detectors": {
       "security": {
         "version": 1,
-        "fingerprint": "2b195418a7abe5774244b00f2e28d3f770d3eb25",
+        "fingerprint": "72a2d99bbba2734ad2cfc25eea67a3d3a26e5817",
         "entries": [
           {
             "file": "dashboard/app.py",
@@ -3374,11 +4388,187 @@
         ],
         "files_scanned": 23,
         "coverage": null
+      },
+      "boilerplate": {
+        "version": 1,
+        "fingerprint": "00f3f3e11e7c9e11e2b3a1db1868dbaa1fde61ee",
+        "entries": []
+      },
+      "dupes": {
+        "version": 1,
+        "threshold": 0.9,
+        "functions": {
+          "dashboard/app.py:api_get:23:30": {
+            "body_hash": "3f1e62634ebc6a49a93fef915cb78a30",
+            "loc": 8
+          },
+          "dashboard/app.py:api_post:33:40": {
+            "body_hash": "38100975aee00408342e082f168c4c58",
+            "loc": 8
+          },
+          "dashboard/app.py:_volunteers_xp_placeholder:224:227": {
+            "body_hash": "630479d43e44f8312e861d56b96e44cb",
+            "loc": 4
+          },
+          "src/api/server.py:require_auth:42:50": {
+            "body_hash": "db2bb6fd29831f2e555491ccc19f55cf",
+            "loc": 9
+          },
+          "src/api/server.py:create_volunteer:122:133": {
+            "body_hash": "fea8a94fbdf81cc24bb6bf7f00b9d86e",
+            "loc": 12
+          },
+          "src/api/server.py:list_available_volunteers:137:152": {
+            "body_hash": "3b0512f55987844c6f5e30343df5b502",
+            "loc": 16
+          },
+          "src/api/server.py:create_dispatch_request:160:190": {
+            "body_hash": "d0cc6e1d3d03e36ffa922d9497071859",
+            "loc": 31
+          },
+          "src/api/server.py:accept_dispatch:194:205": {
+            "body_hash": "b8424be75fb3defb448fdd1d683c326c",
+            "loc": 12
+          },
+          "src/api/server.py:log_call:213:237": {
+            "body_hash": "6324b8f79b0f6afbd154068f68e951da",
+            "loc": 25
+          },
+          "src/api/server.py:call_summary:241:244": {
+            "body_hash": "970f41c53e62eea74c09e8a9903fa9dc",
+            "loc": 4
+          },
+          "src/api/server.py:get_at_risk_volunteers:252:264": {
+            "body_hash": "6bee6b1535363c66a838e4fe817bd3f0",
+            "loc": 13
+          },
+          "src/api/server.py:coalition_broadcast:272:310": {
+            "body_hash": "02c41a55f7528ebaff3c166f966d062c",
+            "loc": 39
+          },
+          "src/api/server.py:tag_task_skills:323:335": {
+            "body_hash": "f38c64584aa6a50b10ef1d24ead2367a",
+            "loc": 13
+          },
+          "src/coalition/broadcast.py:broadcast:73:105": {
+            "body_hash": "790caa9a677d96dfa2ec6a3a2d6e45ee",
+            "loc": 33
+          },
+          "src/coalition/broadcast.py:accept:107:136": {
+            "body_hash": "f69b3532122d8992f010b90a53977245",
+            "loc": 30
+          },
+          "src/dispatch/matcher.py:match:19:48": {
+            "body_hash": "fff5b18319f664b9c41797531e4a4e16",
+            "loc": 30
+          },
+          "src/dispatch/matcher.py:_composite_score:54:62": {
+            "body_hash": "bef54518fefc0723ae02bdcfdc756118",
+            "loc": 9
+          },
+          "src/dispatch/matcher.py:_skill_coverage:64:72": {
+            "body_hash": "b74cff3aeb2aa9d78185556b8a80ea14",
+            "loc": 9
+          },
+          "src/dispatch/matcher.py:_language_coverage:74:80": {
+            "body_hash": "901de1145fb1cd836643c13a7eb1070e",
+            "loc": 7
+          },
+          "src/dispatch/router.py:haversine_km:26:33": {
+            "body_hash": "7c4d8878c6c3c632faa2fb09560c61ef",
+            "loc": 8
+          },
+          "src/dispatch/router.py:distance_score:36:41": {
+            "body_hash": "87262d2b88a0395aa01ecf66a933f072",
+            "loc": 6
+          },
+          "src/dispatch/router.py:set_availability:44:47": {
+            "body_hash": "778f6be894ebe571002f23ff4d7f5da7",
+            "loc": 4
+          },
+          "src/dispatch/router.py:filter_by_availability:50:62": {
+            "body_hash": "0074607305b58a67170c3827bf53d75e",
+            "loc": 13
+          },
+          "src/dispatch/skill_tagger.py:_build_keyword_vectors:82:91": {
+            "body_hash": "72c9c04b50885b9975bab50744cbef20",
+            "loc": 10
+          },
+          "src/dispatch/skill_tagger.py:_cosine:99:106": {
+            "body_hash": "2d47b359d5904b5b2c69ac4fc0edb5be",
+            "loc": 8
+          },
+          "src/dispatch/skill_tagger.py:tag_skills:109:139": {
+            "body_hash": "a15376e4e53660650e9defd127cdc4f7",
+            "loc": 31
+          },
+          "src/engagement/thankyou.py:generate:50:99": {
+            "body_hash": "4e262df707f67bf62c72b8b08e7d5acb",
+            "loc": 50
+          },
+          "src/engagement/thankyou.py:_parse_response:102:115": {
+            "body_hash": "56a1895e36c03b674b22f53e86dccd40",
+            "loc": 14
+          },
+          "src/engagement/tracker.py:log_activity:34:56": {
+            "body_hash": "d464547af9b353bca84813d38e949240",
+            "loc": 23
+          },
+          "src/engagement/tracker.py:weekly_decay_pass:59:76": {
+            "body_hash": "02b94702fa72805c274039b9553dbd24",
+            "loc": 18
+          },
+          "src/engagement/tracker.py:engagement_status:84:91": {
+            "body_hash": "e2fcb41bce4643df5fe524a77611dea6",
+            "loc": 8
+          },
+          "src/engagement/xp.py:award:45:62": {
+            "body_hash": "722907df0bfc42cfabc2cd11a7a83717",
+            "loc": 18
+          },
+          "src/phone_banking/campaign_runner.py:load_campaign:54:61": {
+            "body_hash": "83f7ab6d667d485bcc211736008e2d3c",
+            "loc": 8
+          },
+          "src/phone_banking/campaign_runner.py:run_campaign:64:103": {
+            "body_hash": "1ce83df55ea54b0ee2eecd26c5d5c953",
+            "loc": 40
+          },
+          "src/phone_banking/campaign_runner.py:_build_progress:106:137": {
+            "body_hash": "136fadb9674b9cd1bf98cc72eb93748a",
+            "loc": 32
+          },
+          "src/phone_banking/campaign_runner.py:main:140:165": {
+            "body_hash": "0564d3766983795bff0966ed047e1c3d",
+            "loc": 26
+          },
+          "src/phone_banking/outcome_logger.py:create_record:40:64": {
+            "body_hash": "15bdf5ea8586eac053c33c96a66d762a",
+            "loc": 25
+          },
+          "src/phone_banking/outcome_logger.py:summarise_outcomes:67:76": {
+            "body_hash": "2eb566516919396f3a897c1fffdc6a5f",
+            "loc": 10
+          },
+          "src/phone_banking/script_generator.py:generate_script:73:109": {
+            "body_hash": "c2738787426fe842b33a4c914fcb33aa",
+            "loc": 37
+          },
+          "src/phone_banking/script_generator.py:_parse_script:112:142": {
+            "body_hash": "a39df17c6136304f8e4b8ec23f584583",
+            "loc": 31
+          },
+          "src/phone_banking/script_generator.py:_fallback_script_data:145:165": {
+            "body_hash": "9e8b7ca9c8263cc3249b1ac03b35bfa9",
+            "loc": 21
+          }
+        },
+        "near_pairs": []
       }
     },
     "files": {},
     "holistic": {
-      "reviewed_at": "2026-04-12T08:57:31+00:00",
+      "reviewed_at": "2026-04-12T09:04:09+00:00",
       "file_count_at_review": 23,
       "issue_count": 0
     }
@@ -3393,10 +4583,10 @@
     "production": 18,
     "test": 5
   },
-  "tool_hash": "ff53c6889c9c",
+  "tool_hash": "193b21052290",
   "scan_path": ".",
   "scan_completeness": {
-    "python": "fast"
+    "python": "full"
   },
   "potentials": {
     "python": {
@@ -3421,30 +4611,33 @@
       "advocacy_language": 22,
       "advocacy_security": 18,
       "advocacy_tool_presence": 0,
+      "subjective_review": 26,
+      "boilerplate_duplication": 0,
+      "dupes": 41,
       "stale_wontfix": 0
     }
   },
   "codebase_metrics": {
     "python": {
       "total_files": 23,
-      "total_loc": 2221,
+      "total_loc": 2216,
       "total_directories": 7
     }
   },
   "dimension_scores": {
     "Code quality": {
-      "score": 87.7,
-      "strict": 87.7,
-      "verified_strict_score": 87.7,
+      "score": 86.2,
+      "strict": 86.2,
+      "verified_strict_score": 86.2,
       "checks": 135,
-      "failing": 23,
+      "failing": 25,
       "tier": 3,
       "detectors": {
         "unused": {
           "potential": 18,
-          "pass_rate": 0.6111111111111112,
-          "failing": 7,
-          "weighted_failures": 7.0
+          "pass_rate": 0.5,
+          "failing": 9,
+          "weighted_failures": 9.0
         },
         "smells": {
           "potential": 18,
@@ -3534,19 +4727,35 @@
         }
       }
     },
+    "Duplication": {
+      "score": 100.0,
+      "strict": 100.0,
+      "verified_strict_score": 100.0,
+      "checks": 41,
+      "failing": 0,
+      "tier": 3,
+      "detectors": {
+        "dupes": {
+          "potential": 41,
+          "pass_rate": 1.0,
+          "failing": 0,
+          "weighted_failures": 0.0
+        }
+      }
+    },
     "Test health": {
-      "score": 34.8,
-      "strict": 34.8,
-      "verified_strict_score": 34.8,
+      "score": 34.9,
+      "strict": 34.9,
+      "verified_strict_score": 34.9,
       "checks": 138,
       "failing": 7,
       "tier": 4,
       "detectors": {
         "test_coverage": {
           "potential": 138,
-          "pass_rate": 0.34791414327059905,
+          "pass_rate": 0.3486507437748546,
           "failing": 7,
-          "weighted_failures": 89.98784822865733
+          "weighted_failures": 89.88619735907007
         }
       }
     },
@@ -4131,7 +5340,7 @@
   },
   "reminder_history": {
     "zone_classification": 3,
-    "report_scores": 10,
+    "report_scores": 13,
     "feedback_nudge": 3,
     "stagnant_nudge": 31,
     "review_not_run": 3

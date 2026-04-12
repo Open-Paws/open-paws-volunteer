@@ -1,41 +1,41 @@
 {
   "command": "scan",
-  "overall_score": 86.0,
-  "objective_score": 75.0,
-  "strict_score": 86.0,
-  "verified_strict_score": 75.0,
-  "prev_overall_score": 85.3,
-  "prev_objective_score": 72.1,
-  "prev_strict_score": 85.3,
-  "prev_verified_strict_score": 72.1,
-  "profile": "ci",
+  "overall_score": 86.5,
+  "objective_score": 76.8,
+  "strict_score": 86.5,
+  "verified_strict_score": 76.8,
+  "prev_overall_score": 86.5,
+  "prev_objective_score": 76.8,
+  "prev_strict_score": 86.5,
+  "prev_verified_strict_score": 76.8,
+  "profile": "full",
   "noise_budget": 10,
   "noise_global_budget": 0,
   "hidden_by_detector": {
-    "unused": 1
+    "unused": 3
   },
-  "hidden_total": 1,
+  "hidden_total": 3,
   "diff": {
     "new": 0,
     "auto_resolved": 0,
     "reopened": 0,
-    "total_current": 37,
+    "total_current": 28,
     "suspect_detectors": [],
     "chronic_reopeners": [],
     "skipped_other_lang": 0,
     "resolved_out_of_scope": 0,
     "ignored": 0,
     "ignore_patterns": 0,
-    "raw_issues": 37,
+    "raw_issues": 28,
     "suppressed_pct": 0.0
   },
   "stats": {
-    "total": 37,
+    "total": 39,
     "auto_resolved": 0,
     "deferred": 0,
     "false_positive": 0,
     "fixed": 0,
-    "open": 37,
+    "open": 39,
     "triaged_out": 0,
     "wontfix": 0,
     "by_tier": {
@@ -53,7 +53,7 @@
         "deferred": 0,
         "false_positive": 0,
         "fixed": 0,
-        "open": 2,
+        "open": 4,
         "triaged_out": 0,
         "wontfix": 0
       },
@@ -78,25 +78,25 @@
     }
   },
   "open_scope": {
-    "in_scope": 37,
+    "in_scope": 39,
     "out_of_scope": 0,
-    "global": 37
+    "global": 39
   },
   "warnings": [],
   "dimension_scores": {
     "Code quality": {
-      "score": 87.7,
-      "strict": 87.7,
-      "verified_strict_score": 87.7,
+      "score": 86.2,
+      "strict": 86.2,
+      "verified_strict_score": 86.2,
       "checks": 135,
-      "failing": 23,
+      "failing": 25,
       "tier": 3,
       "detectors": {
         "unused": {
           "potential": 18,
-          "pass_rate": 0.6111111111111112,
-          "failing": 7,
-          "weighted_failures": 7.0
+          "pass_rate": 0.5,
+          "failing": 9,
+          "weighted_failures": 9.0
         },
         "smells": {
           "potential": 18,
@@ -186,19 +186,35 @@
         }
       }
     },
+    "Duplication": {
+      "score": 100.0,
+      "strict": 100.0,
+      "verified_strict_score": 100.0,
+      "checks": 41,
+      "failing": 0,
+      "tier": 3,
+      "detectors": {
+        "dupes": {
+          "potential": 41,
+          "pass_rate": 1.0,
+          "failing": 0,
+          "weighted_failures": 0.0
+        }
+      }
+    },
     "Test health": {
-      "score": 34.8,
-      "strict": 34.8,
-      "verified_strict_score": 34.8,
+      "score": 34.9,
+      "strict": 34.9,
+      "verified_strict_score": 34.9,
       "checks": 138,
       "failing": 7,
       "tier": 4,
       "detectors": {
         "test_coverage": {
           "potential": 138,
-          "pass_rate": 0.34791414327059905,
+          "pass_rate": 0.3486507437748546,
           "failing": 7,
-          "weighted_failures": 89.98784822865733
+          "weighted_failures": 89.88619735907007
         }
       }
     },
@@ -782,24 +798,24 @@
     }
   },
   "score_breakdown": {
-    "overall_score": 86.0,
+    "overall_score": 86.5,
     "mechanical_fraction": 0.25,
     "subjective_fraction": 0.75,
-    "mechanical_avg": 74.98488372093024,
+    "mechanical_avg": 76.76178343949043,
     "subjective_avg": 89.72151898734177,
     "entries": [
       {
         "name": "Code quality",
         "pool": "mechanical",
-        "score": 87.7,
+        "score": 86.2,
         "checks": 135.0,
         "sample_factor": 0.675,
         "configured_weight": 1.0,
         "effective_weight": 0.675,
-        "pool_share": 0.3139534883720931,
-        "overall_per_point": 0.07848837209302327,
-        "overall_contribution": 6.883430232558141,
-        "overall_drag": 0.965406976744186
+        "pool_share": 0.28662420382165604,
+        "overall_per_point": 0.07165605095541401,
+        "overall_contribution": 6.176751592356688,
+        "overall_drag": 0.9888535031847131
       },
       {
         "name": "Security",
@@ -809,10 +825,10 @@
         "sample_factor": 0.205,
         "configured_weight": 1.0,
         "effective_weight": 0.205,
-        "pool_share": 0.09534883720930232,
-        "overall_per_point": 0.02383720930232558,
-        "overall_contribution": 2.326511627906976,
-        "overall_drag": 0.057209302325581524
+        "pool_share": 0.08704883227176219,
+        "overall_per_point": 0.021762208067940547,
+        "overall_contribution": 2.1239915074309974,
+        "overall_drag": 0.05222929936305744
       },
       {
         "name": "File health",
@@ -822,23 +838,36 @@
         "sample_factor": 0.09,
         "configured_weight": 2.0,
         "effective_weight": 0.18,
-        "pool_share": 0.08372093023255814,
-        "overall_per_point": 0.020930232558139535,
-        "overall_contribution": 2.0930232558139537,
+        "pool_share": 0.07643312101910826,
+        "overall_per_point": 0.019108280254777066,
+        "overall_contribution": 1.9108280254777066,
+        "overall_drag": 0.0
+      },
+      {
+        "name": "Duplication",
+        "pool": "mechanical",
+        "score": 100.0,
+        "checks": 41.0,
+        "sample_factor": 0.205,
+        "configured_weight": 1.0,
+        "effective_weight": 0.205,
+        "pool_share": 0.08704883227176219,
+        "overall_per_point": 0.021762208067940547,
+        "overall_contribution": 2.1762208067940545,
         "overall_drag": 0.0
       },
       {
         "name": "Test health",
         "pool": "mechanical",
-        "score": 34.8,
+        "score": 34.9,
         "checks": 138.0,
         "sample_factor": 0.69,
         "configured_weight": 1.0,
         "effective_weight": 0.69,
-        "pool_share": 0.3209302325581395,
-        "overall_per_point": 0.08023255813953488,
-        "overall_contribution": 2.7920930232558137,
-        "overall_drag": 5.231162790697675
+        "pool_share": 0.29299363057324834,
+        "overall_per_point": 0.07324840764331209,
+        "overall_contribution": 2.5563694267515915,
+        "overall_drag": 4.768471337579617
       },
       {
         "name": "Advocacy language",
@@ -848,9 +877,9 @@
         "sample_factor": 0.11,
         "configured_weight": 2.0,
         "effective_weight": 0.22,
-        "pool_share": 0.10232558139534884,
-        "overall_per_point": 0.02558139534883721,
-        "overall_contribution": 2.558139534883721,
+        "pool_share": 0.09341825902335454,
+        "overall_per_point": 0.023354564755838636,
+        "overall_contribution": 2.3354564755838636,
         "overall_drag": 0.0
       },
       {
@@ -861,9 +890,9 @@
         "sample_factor": 0.09,
         "configured_weight": 2.0,
         "effective_weight": 0.18,
-        "pool_share": 0.08372093023255814,
-        "overall_per_point": 0.020930232558139535,
-        "overall_contribution": 2.0930232558139537,
+        "pool_share": 0.07643312101910826,
+        "overall_per_point": 0.019108280254777066,
+        "overall_contribution": 1.9108280254777066,
         "overall_drag": 0.0
       },
       {
@@ -1242,6 +1271,9 @@
       "advocacy_language": 22,
       "advocacy_security": 18,
       "advocacy_tool_presence": 0,
+      "subjective_review": 26,
+      "boilerplate_duplication": 0,
+      "dupes": 41,
       "stale_wontfix": 0
     }
   },
@@ -1262,7 +1294,7 @@
         }
       },
       "warnings": [],
-      "updated_at": "2026-04-12T08:57:41+00:00"
+      "updated_at": "2026-04-12T09:08:32+00:00"
     }
   },
   "zone_distribution": {
@@ -1270,13 +1302,13 @@
     "test": 5
   },
   "narrative": {
-    "phase": "refinement",
-    "headline": "\u26a0 1 security issue \u2014 review before other cleanup. ",
+    "phase": "stagnation",
+    "headline": "\u26a0 1 security issue \u2014 review before other cleanup. Score plateaued at 86.5 for 5 scans. Test health (34.9%) is where the breakthrough is.",
     "dimensions": {
       "lowest_dimensions": [
         {
           "name": "Test health",
-          "strict": 34.8,
+          "strict": 34.9,
           "failing": 7,
           "impact": 0.0
         },
@@ -1301,7 +1333,7 @@
       "stagnant_dimensions": [
         {
           "name": "Code quality",
-          "strict": 87.7,
+          "strict": 86.2,
           "stuck_scans": 5
         },
         {
@@ -1315,8 +1347,18 @@
           "stuck_scans": 5
         },
         {
+          "name": "Duplication",
+          "strict": 100.0,
+          "stuck_scans": 5
+        },
+        {
           "name": "Test health",
-          "strict": 34.8,
+          "strict": 34.9,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Advocacy language",
+          "strict": 100.0,
           "stuck_scans": 5
         },
         {
@@ -1325,8 +1367,48 @@
           "stuck_scans": 5
         },
         {
+          "name": "Abstraction fit",
+          "strict": 88.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Data sovereignty",
+          "strict": 93.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Advocacy language (subjective)",
+          "strict": 95.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Advocacy security (subjective)",
+          "strict": 92.0,
+          "stuck_scans": 5
+        },
+        {
           "name": "Advocacy terminology",
           "strict": 93.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Advocacy tools",
+          "strict": 91.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Advocacy UX",
+          "strict": 85.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "AI generated debt",
+          "strict": 83.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "API coherence",
+          "strict": 90.0,
           "stuck_scans": 5
         },
         {
@@ -1335,13 +1417,73 @@
           "stuck_scans": 5
         },
         {
+          "name": "Contracts",
+          "strict": 89.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Convention drift",
+          "strict": 91.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Cross-module arch",
+          "strict": 87.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Dep health",
+          "strict": 88.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Design coherence",
+          "strict": 89.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Error consistency",
+          "strict": 85.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "High elegance",
+          "strict": 91.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Stale migration",
+          "strict": 72.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Init coupling",
+          "strict": 85.0,
+          "stuck_scans": 5
+        },
+        {
           "name": "Logic clarity",
           "strict": 92.0,
           "stuck_scans": 5
         },
         {
+          "name": "Low elegance",
+          "strict": 89.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Mid elegance",
+          "strict": 91.0,
+          "stuck_scans": 5
+        },
+        {
           "name": "Naming quality",
           "strict": 93.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Structure nav",
+          "strict": 89.0,
           "stuck_scans": 5
         },
         {
@@ -1408,8 +1550,8 @@
       {
         "type": "manual_fix",
         "detector": "unused",
-        "count": 11,
-        "description": "11 unused issues in 1 cluster(s) \u2014 run `desloppify next`",
+        "count": 13,
+        "description": "13 unused issues in 1 cluster(s) \u2014 run `desloppify next`",
         "command": "desloppify next",
         "impact": 0.0,
         "dimension": "Code quality",
@@ -1457,7 +1599,7 @@
     "strategy": {
       "fixer_leverage": {
         "auto_fixable_count": 0,
-        "total_count": 37,
+        "total_count": 39,
         "coverage": 0.0,
         "impact_ratio": 0.0,
         "recommendation": "none"
@@ -1512,10 +1654,10 @@
         "description": "Generate prioritized markdown cleanup plan"
       },
       "badge": {
-        "generated": false,
+        "generated": true,
         "in_readme": false,
         "path": "scorecard.png",
-        "recommendation": null
+        "recommendation": "Add to README: <img src=\"scorecard.png\" width=\"100%\">"
       }
     },
     "debt": {
@@ -1538,8 +1680,8 @@
     "risk_flags": [],
     "strict_target": {
       "target": 85.0,
-      "current": 86.0,
-      "gap": -1.0,
+      "current": 86.5,
+      "gap": -1.5,
       "state": "above",
       "warning": null
     },
@@ -1555,7 +1697,7 @@
     ],
     "reminder_history": {
       "zone_classification": 3,
-      "report_scores": 10,
+      "report_scores": 13,
       "feedback_nudge": 3,
       "stagnant_nudge": 31,
       "review_not_run": 3
@@ -1595,8 +1737,8 @@
   "plan": {
     "active": true,
     "focus": null,
-    "total_ordered": 37,
-    "total_skipped": 0,
+    "total_ordered": 0,
+    "total_skipped": 26,
     "plan_overrides_narrative": true
   }
 }

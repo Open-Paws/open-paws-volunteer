@@ -8,7 +8,6 @@ Both approaches feed into the same DispatchMatch score produced by VolunteerMatc
 from __future__ import annotations
 
 from math import asin, cos, radians, sin, sqrt
-from typing import Optional
 
 from .models import AvailabilityStatus, Volunteer
 
