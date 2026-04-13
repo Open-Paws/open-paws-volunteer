@@ -4,7 +4,7 @@ Tests for engagement tracker and XP awarder.
 import pytest
 from datetime import datetime, timedelta, timezone
 
-from src.dispatch.models import AvailabilityStatus, Volunteer
+from src.dispatch.models import Volunteer
 from src.engagement.tracker import (
     ENGAGEMENT_FLOOR,
     REACTIVATION_THRESHOLD,

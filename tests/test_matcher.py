@@ -3,11 +3,9 @@ Tests for VolunteerMatcher.
 
 Every test fails when the behavior it covers is broken (per advocacy testing standards).
 """
-import pytest
 from src.dispatch.matcher import VolunteerMatcher
 from src.dispatch.models import (
     AvailabilityStatus,
-    DispatchMatch,
     DispatchRequest,
     SkillArea,
     Urgency,

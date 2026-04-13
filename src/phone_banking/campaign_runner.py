@@ -36,7 +36,6 @@ from src.dispatch.models import DispatchRequest, DispatchMatch, SkillArea, Urgen
 from src.phone_banking.outcome_logger import (
     CallOutcome,
     CallRecord,
-    create_record,
     summarise_outcomes,
 )
 from src.phone_banking.script_generator import ScriptTone, TargetType, generate_script
